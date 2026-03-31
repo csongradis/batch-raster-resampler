@@ -1,0 +1,23 @@
+[general]
+name=Batch Raster Resampler
+qgisMinimumVersion=3.16
+qgisMaximumVersion=3.99
+description=Batch resamples raster files in a folder to a target resolution, preserving CRS.
+version=1.0
+author=Csongrádi Sebestyén & Gemini
+email=csongradi.se@gmail.com
+about=This plugin provides a batch processing tool to change the resolution of multiple raster files (.tif) to a user-specified pixel size. The original Coordinate Reference System is preserved. It assumes .tfw files are present if the TIFFs are not self-referenced GeoTIFFs.
+
+[plugin_dependencies]
+# Nincsenek külső Python függőségek, a QGIS beépített moduljait használja
+
+tracker=
+repository=
+
+tags=raster,resample,batch,resolution,gdal,geoinformatics
+
+homepage=
+category=Raster
+
+experimental=False
+deprecated=False
